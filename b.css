@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#back{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(201, 234, 255);
+}
+#top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+    /* background-color: red; */
+}
+#bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 25%;
+    bottom: 30px;
+     height: 50%;
+    width: 100%;
+    background-color: rgb(150, 198, 224);
+}
+#screen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    height: 60%;
+    width: 20%;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 2px solid grey;
+}
+small{
+    letter-spacing: 5px;
+    font-size: 20px;
+    font-weight: 10px;
+    opacity: .4;
+
+}
+#bottom input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     height: 40px;
+     width: 190px;
+     border-radius: 5px;
+     border: none;
+     border: 1.5px solid;
+     text-align: center;
+     outline: none;
+    }
+    #bottom input:nth-child(1){
+
+        border-color: red;
+        color: red;
+        padding-left: 5px;
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: bold;
+
+    }
+ 
+#bottom input:nth-child(1)::placeholder{
+    color: red;
+}
+
+
+#bottom input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     height: 40px;
+     width: 190px;
+     border-radius: 5px;
+     border: none;
+     border: 1.5px solid;
+     text-align: center;
+     outline: none;
+    }
+    #bottom input:nth-child(2){
+
+        border-color:green;
+        color: green;
+        padding-left: 5px;
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: bold;
+
+    }
+ 
+#bottom input:nth-child(2)::placeholder{
+    color: green;
+}
+
+
+#bottom input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     height: 40px;
+     width: 190px;
+     border-radius: 5px;
+     border: none;
+     border: 1.5px solid;
+     text-align: center;
+     outline: none;
+    }
+    #bottom input:nth-child(3){
+
+        border-color:blue;
+        color: blue;
+        padding-left: 5px;
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: bold;
+
+    }
+ 
+#bottom input:nth-child(3)::placeholder{
+    color: blue;
+}
+ button{
+     position: absolute;
+    bottom: 7%;
+    left: 47%;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    width: 90px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.488);
+    text-transform: uppercase;
+    background-color: rgb(201, 234, 255);
+ }
